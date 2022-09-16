@@ -24,9 +24,9 @@ async function main() {
 
   // Deploy USDC ERC20
   const USDC = Erc20Token__factory.connect("0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",deployer); // mainnet address
-  const UNI = Erc20Token__factory.connect("PARI TO INSERT",erc20abi,deployer)
-  const AAVE = Erc20Token__factory.connect("PARI TO INSERT",erc20abi,deployer)
-  const DAI = Erc20Token__factory.connect("PARI TO INSERT",erc20abi,deployer)
+  const UNI = Erc20Token__factory.connect("PARI TO INSERT",deployer)
+  const AAVE = Erc20Token__factory.connect("PARI TO INSERT",deployer)
+  const DAI = Erc20Token__factory.connect("PARI TO INSERT",deployer)
   
   // const USDC: Erc20Token = await deployErc20Token(
   //     {
